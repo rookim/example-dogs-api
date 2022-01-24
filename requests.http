@@ -1,0 +1,22 @@
+### Users create (signup)
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "Ro",
+  "email": "ro@gmail.com",
+  "password": "password",
+  "password_confirmation": "password"
+}
+
+### Sessions create (login)
+POST http://localhost:3000/sessions
+Content-Type: application/json
+
+{
+  "email": "ro@gmail.com",
+  "password": "password"
+}
+
+###
+eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDMxNDcwMTZ9.-IVQsBaiMCywRCiUZYlZyNJp8ElJjY8h24cWgckr1vA
