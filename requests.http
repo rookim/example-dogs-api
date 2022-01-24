@@ -19,4 +19,14 @@ Content-Type: application/json
 }
 
 ###
+### Photos create
+POST http://localhost:3000/dogs
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDMxNDcwMTZ9.-IVQsBaiMCywRCiUZYlZyNJp8ElJjY8h24cWgckr1vA
+Content-Type: application/json
+
+{
+  "name": "Test name",
+  "width": 640,
+  "height": 480
+}
 eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDMxNDcwMTZ9.-IVQsBaiMCywRCiUZYlZyNJp8ElJjY8h24cWgckr1vA
