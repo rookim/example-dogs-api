@@ -22,7 +22,7 @@ Content-Type: application/json
 ### Photos create
 POST http://localhost:3000/dogs
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDMxNDcwMTZ9.-IVQsBaiMCywRCiUZYlZyNJp8ElJjY8h24cWgckr1vA
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDMxNDgxMTd9.tUbU6HBQOFf8pMoo5cqNIYxlCJI8s2NBe_Pe1dbcn2s
 
 {
   "name": "Yupy",
